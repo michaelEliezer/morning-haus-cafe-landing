@@ -1,42 +1,26 @@
 # Morning Haus — Cafe Landing Page
 
-A premium responsive cafe landing page built with plain HTML, CSS, and JavaScript.
+A responsive cafe landing page concept built with HTML, CSS, and JavaScript.
 
-## How to run
+## Live Site
 
-1. Extract the ZIP.
-2. Open the folder in VS Code.
-3. Right-click `index.html`.
-4. Choose **Open with Live Server**.
+Coming soon
 
-Or just double-click `index.html`.
+## Built With
 
-## What this project demonstrates
+* HTML
+* CSS
+* JavaScript
 
-- Responsive landing page layout
-- Sticky navbar
-- Mobile menu
-- Smooth scroll with navbar offset
-- Scroll reveal animations
-- CSS illustration/card visual
-- Netlify-ready contact/reservation form
+## Features
 
-## Deploy to Netlify
+* Responsive layout
+* Mobile navigation
+* Smooth scrolling
+* Scroll reveal animations
+* Reservation/contact form
+* Clean cafe-style landing page design
 
-1. Drag this folder into Netlify deploy.
-2. Netlify will detect the form because the HTML includes:
+## About
 
-```html
-<form name="reservation" method="POST" data-netlify="true">
-```
-
-3. After deployment, test the form from the live Netlify URL.
-
-## Portfolio note
-
-This is a demo concept project. You can add it to your portfolio as:
-
-**Morning Haus — Cafe Landing Page**
-
-Description:
-A responsive cafe landing page concept with a premium editorial style, sticky navigation, smooth scrolling, mobile menu, scroll animations, and a Netlify-ready reservation form.
+This project was built as a small business landing page concept for a modern cafe brand.
