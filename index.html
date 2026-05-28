@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="A premium responsive cafe landing page built with HTML, CSS, and JavaScript." />
+  <title>Morning Haus — Cafe Landing Page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="#home" class="brand">
+        <span class="brand-mark">MH</span>
+        <span>Morning Haus</span>
+      </a>
+
+      <button class="menu-btn" id="menuBtn" type="button" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#menu">Menu</a>
+        <a href="#story">Story</a>
+        <a href="#visit">Visit</a>
+        <a href="#reservation" class="nav-cta">Reserve</a>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">Independent coffee house · Since 2024</p>
+        <h1>Slow mornings, better coffee.</h1>
+        <p class="hero-text">
+          A warm neighborhood cafe serving specialty coffee, fresh pastries, and simple brunch plates in a calm, design-led space.
+        </p>
+        <div class="hero-actions">
+          <a href="#menu" class="btn btn-primary">Explore menu</a>
+          <a href="#visit" class="btn btn-soft">Find us</a>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-hidden="true">
+        <div class="cup-card">
+          <div class="steam steam-one"></div>
+          <div class="steam steam-two"></div>
+          <div class="cup">
+            <div class="coffee"></div>
+          </div>
+          <div class="saucer"></div>
+        </div>
+        <div class="hours-card">
+          <span>Open today</span>
+          <strong>07:00 — 21:00</strong>
+        </div>
+      </div>
+    </section>
+
+    <section class="section menu" id="menu">
+      <div class="section-head">
+        <p class="eyebrow">Signature menu</p>
+        <h2>Built for daily rituals.</h2>
+      </div>
+
+      <div class="menu-grid">
+        <article class="menu-card">
+          <div>
+            <span class="menu-tag">Coffee</span>
+            <h3>House Latte</h3>
+            <p>Espresso, silky milk, warm caramel notes.</p>
+          </div>
+          <strong>$4.50</strong>
+        </article>
+
+        <article class="menu-card">
+          <div>
+            <span class="menu-tag">Cold</span>
+            <h3>Orange Cold Brew</h3>
+            <p>Slow-steeped cold brew with citrus finish.</p>
+          </div>
+          <strong>$5.25</strong>
+        </article>
+
+        <article class="menu-card">
+          <div>
+            <span class="menu-tag">Brunch</span>
+            <h3>Avocado Toast</h3>
+            <p>Sourdough, herbs, chili oil, soft egg.</p>
+          </div>
+          <strong>$8.00</strong>
+        </article>
+
+        <article class="menu-card">
+          <div>
+            <span class="menu-tag">Bakery</span>
+            <h3>Almond Croissant</h3>
+            <p>Buttery pastry with almond cream filling.</p>
+          </div>
+          <strong>$4.75</strong>
+        </article>
+      </div>
+    </section>
+
+    <section class="section story" id="story">
+      <div class="story-card">
+        <div class="story-image">
+          <div class="story-shape"></div>
+        </div>
+        <div class="story-copy">
+          <p class="eyebrow">Our story</p>
+          <h2>Designed for quiet work, long talks, and real coffee.</h2>
+          <p>
+            Morning Haus is a concept landing page for a modern cafe brand. It focuses on clean typography,
+            clear calls-to-action, responsive layout, and a premium editorial feel.
+          </p>
+          <div class="story-stats">
+            <div><strong>4.9</strong><span>Guest rating</span></div>
+            <div><strong>12+</strong><span>Menu items</span></div>
+            <div><strong>7 days</strong><span>Open weekly</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section visit" id="visit">
+      <div class="section-head">
+        <p class="eyebrow">Visit us</p>
+        <h2>Everything visitors need, before they arrive.</h2>
+      </div>
+
+      <div class="visit-grid">
+        <article class="info-card">
+          <span>Location</span>
+          <strong>21 Market Street, Downtown</strong>
+          <p>Near the central station, with outdoor seating and bike parking.</p>
+        </article>
+        <article class="info-card">
+          <span>Hours</span>
+          <strong>Mon — Sun · 07:00 — 21:00</strong>
+          <p>Kitchen closes at 20:00. Takeaway coffee available all day.</p>
+        </article>
+        <article class="info-card">
+          <span>Contact</span>
+          <strong>hello@morninghaus.test</strong>
+          <p>For private events, small meetings, or table reservations.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section reservation" id="reservation">
+      <div class="reservation-inner">
+        <div>
+          <p class="eyebrow">Reservation</p>
+          <h2>Reserve a table or ask a question.</h2>
+          <p>
+            This form is Netlify-ready. Deploy the site to Netlify and submissions can be collected from the dashboard.
+          </p>
+        </div>
+
+        <form class="form" name="reservation" method="POST" data-netlify="true">
+          <input type="hidden" name="form-name" value="reservation" />
+          <label>
+            Name
+            <input type="text" name="name" placeholder="Your name" required />
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" placeholder="you@example.com" required />
+          </label>
+          <label>
+            Message
+            <textarea name="message" rows="4" placeholder="Table for 2 this Friday..." required></textarea>
+          </label>
+          <button class="btn btn-primary" type="submit">Send request</button>
+          <p class="form-note" id="formNote">Demo form. Works after Netlify deploy.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>Morning Haus</span>
+    <span>Demo landing page by Michael Eliezer</span>
+    <a href="#home">Back to top ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
