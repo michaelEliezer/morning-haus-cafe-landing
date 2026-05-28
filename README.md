@@ -9,7 +9,10 @@ A premium responsive cafe landing page built with plain HTML, CSS, and JavaScrip
 3. Right-click `index.html`.
 4. Choose **Open with Live Server**.
 
-Or just double-click `index.html`.
+## Live Site
+
+https://michaeleliezer.github.io/morning-haus-cafe-landing/
+
 
 ## What this project demonstrates
 
